@@ -1,0 +1,10 @@
+{
+  "title": "Login Overview",
+  "visualizations": [
+    {
+      "type": "bar",
+      "search": "index=* sourcetype=linux_secure | stats count by user",
+      "title": "Linux Login Attempts by User"
+    }
+  ]
+}
